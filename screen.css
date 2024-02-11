@@ -1,7 +1,78 @@
 /* Add screen styles below */
+body {
+    margin: 0;
+}
+
 nav {
+    /* Navigation Bar */
     display: flex;
     padding: 16px 32px;
     align-items: center;
-    gap: 10px;
+    background: #BFCDE0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+
+    /* Logo */
+    font-family: "Helvetica Neue";
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    color: #000505;
+}
+
+h1 {
+    /* Background */
+    padding: 64px;
+    background: #5D5D81;
+    margin: 0;
+
+    /* Display/01/Bold */
+    color: #FEFCFD;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.59px;
+}
+
+div {
+    background: #3B3355;
+}
+
+.container div {
+    height: 300px;
+    padding: 64px 64px 64px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; 
+}
+
+img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 64px 32px 64px 64px;
+}
+
+h2 {
+    /* Heading/02/Bold */
+    margin: 0px 0px 24px 0px;
+    color: #FEFCFD;
+    text-align: left;
+    font-family: Tahoma, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: -1.14px;
+}
+
+p {
+    /* Paragraph/01/Regular */
+    margin: 0;
+    color: #FEFCFD;
+    text-align: left;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.42px;
 }
