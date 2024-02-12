@@ -41,7 +41,7 @@ div {
 
 .container div {
     height: 300px;
-    padding: 64px 64px 64px 0px;
+    padding: 64px 128px 64px 0px;
     display: flex;
     flex-wrap: wrap;
     align-content: center; 
@@ -51,7 +51,7 @@ img {
     float: left;
     width: 300px;
     height: 300px;
-    margin: 64px 32px 64px 64px;
+    margin: 64px 32px 64px 128px;
 }
 
 h2 {
